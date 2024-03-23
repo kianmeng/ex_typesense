@@ -8,7 +8,7 @@ defmodule ExTypesense.MixProject do
     [
       app: :ex_typesense,
       version: @version,
-      elixir: "~> 1.14",
+      elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       test_coverage: [tool: ExCoveralls],
